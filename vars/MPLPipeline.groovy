@@ -28,7 +28,7 @@
  * @author Sergei Parshev <sparshev@griddynamics.com>
  */
 def call(body) {
-  echo "BODY: ${body}"
+  
   def MPL = MPLPipelineConfig(body, [
     agent_label: '',
     modules: [
